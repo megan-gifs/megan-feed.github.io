@@ -1,0 +1,64 @@
+#firstdiv{
+    border: 10px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#seconddiv{
+    border: 10px solid orange;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#columns{
+    border: 10px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+
+figure{
+    margin: auto;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    text-align: center;
+}
+
+p{
+    margin: 40px;
+    padding: 20px;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+#splashlink{
+    border: 10px solid black;
+    display: flex;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#indexbody{
+    background-image: url(img/grass.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* Repeating option
+    background-image: url(img/grass.png);
+    background-repeat: repeat;
+    height: 80px;
+    */
+}
+
+#thirddiv{
+    display: flex;
+    flex-direction: row;
+}
